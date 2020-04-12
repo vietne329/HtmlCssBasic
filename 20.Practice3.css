@@ -1,0 +1,37 @@
+.cottrai{
+    width: 630px;
+    height: 445px;
+    font-family:segoe ui light;
+    text-decoration: none;
+    font-size: 13px;
+    margin:auto;
+}
+
+.cottrai img{
+    width: 100%;
+}
+
+a.anhvatieude{
+    text-decoration: none;
+    font-family: segoe ui light;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+a.anhvatieude h3{
+    display: inline;
+}
+
+a.nguon, span.gio , a.a2{
+    color:grey;
+    text-decoration: none;
+}
+
+a.nguon, span.gio{
+    margin-right: 10px;
+}
+
+div.tren a.anhvatieude:hover, a.nguon:hover, a.a2:hover{
+    color:#2fa1b3;
+}

@@ -1,0 +1,74 @@
+.block{
+    width: 1100px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin:auto;
+}
+
+.parent{
+    width: 265px;
+    height: 405px;
+    font-size: 13px;
+    font-family: segoe ui light;
+    position: relative;
+
+}
+.parent .layer1{
+    width: 100%;
+}
+.parent .layer2{
+    width: 100%;
+    position: absolute;
+    transition: 0.7s;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.parent:hover .layer2{
+    opacity: 1;
+}
+.parent .layer3{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+}
+.parent .layer3 .trai{
+    width: 50%;
+}
+.parent .layer3 .phai{
+    width: 50%;
+    text-align: right;
+}
+.parent .layer4{
+    transition: 0.7s;
+    position: absolute;
+    opacity: 1;
+}
+.parent:hover .layer4{
+    opacity: 0;
+}
+.parent .layer5{
+    transition: 0.7s;
+    position: absolute;
+    opacity: 0;
+}
+
+.parent:hover .layer5{
+    opacity: 1;
+}
+
+h2{
+    color: black;
+    font-size: segoe ui light;
+    font-weight: lighter;
+    text-align: center;
+}
+
+div.viet{
+    text-align: center;
+    color: grey;
+    margin-bottom: 20px;
+    
+}

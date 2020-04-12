@@ -1,0 +1,35 @@
+body,html{height: 100%; margin:0}
+.menu{
+   background-image: url("aa.jpg");
+   height: 100%;
+    background-size: cover;
+}
+.menu ul{
+    padding-top: 30px;
+    list-style: none;
+    font-size: 14px;
+    font-family: segoe ui light;
+    font-weight: bold;
+    margin: 0px;
+    color: white;
+}
+.menu ul li{
+    padding-bottom: 5px;
+    transition: 0.4s;
+}
+.menu ul li:hover{
+    margin-left: 20px;
+}
+.menu ul li .icon{
+    display: inline;
+    transform: 0.4s;
+    opacity: 0;
+    color: rgb(27, 93, 192);
+}
+.menu ul li:hover .icon{
+    opacity: 1;
+}
+.menu ul li .text{
+    display: inline;
+   
+}

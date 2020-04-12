@@ -1,0 +1,67 @@
+.block_imagine{
+    width: 360px;
+    height: 360px;
+    font-family: segoe ui light;
+    position: relative;
+    margin: auto;
+    perspective: 500px;
+}
+.block_imagine .layer1{
+    width: 100%;
+}
+.block_imagine .layer2{
+    width: 330px;
+    height: 330px;
+    background-color: white;
+    top:15px;
+    left: 15px;
+    position: absolute;
+    transition: 0.4s;
+    opacity: 0;
+    transform-origin: 0 0;
+}
+.block_imagine:hover .layer2{
+    opacity: 0.9;
+    transform:rotateY(10deg);
+    left: -10px;
+}
+.block_imagine .icons{
+    position: absolute;
+    font-size: 50px;
+    left: 50px;
+    top : 40px;
+    transition: 0.4s;
+    opacity: 0;
+
+}
+.block_imagine:hover .icons{
+    opacity: 1;
+}
+.block_imagine .bigword{
+    left: 50px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 18px;
+    bottom: 60px;
+    transition:0.4s;
+    opacity: 0;
+}
+.block_imagine:hover .bigword{
+    opacity: 1;
+    transition-delay: 0.2s;
+    bottom: 70px;
+}
+.block_imagine .smallword{
+    left: 50px;
+    position: absolute;
+    font-weight: bold;
+    color: grey;
+    font-size: 14px;
+    bottom: 50px;
+    transition:0.4s;
+    opacity: 0;
+}
+.block_imagine:hover .smallword{
+    opacity: 1;
+    transition-delay: 0.4s;
+}

@@ -1,0 +1,22 @@
+div.to {
+    display: flex;
+    margin:auto;
+    justify-content: space-between;
+    width: 900px;
+}
+
+div.to div.so1{
+    width: 25%;
+}
+
+div.to div.so2{
+    width: 40%;
+}
+
+div.to div.so3{
+    width: 30%;
+}
+
+div.to div.so1 img{
+    width: 100%;
+}

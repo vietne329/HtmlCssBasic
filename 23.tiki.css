@@ -1,0 +1,64 @@
+.banner{
+    width: 1240px;
+    height: 545px;
+    display: flex;
+    margin: auto;
+}
+
+._1c{
+    width: 245px;
+}
+
+._1c .mothang{
+    display: flex;
+    margin-bottom: 5px;
+}
+._1c .mothang:hover{
+    background-color: rgb(26, 83, 187);
+}
+._1c .mothang .trai{
+    width: 40px;
+    height: 18px;
+}
+._1c .mothang .phai{
+    width: 205px;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+._2c{
+    width: 585px;
+
+}
+
+._2c .tren{
+    height: 363px;
+    
+}
+
+._2c .duoi{
+    height: 192px;
+    display: flex;
+}
+
+#s1 .carousel-indicators{
+    display: none;
+}
+
+._3c{
+    width: 410px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+._3c .trai{
+    width: 50%;
+    height: 33.33%;
+}
+._3c .phai{
+    width: 50%;
+    height: 33.33%;
+}
+img{
+    width: 100%;
+}

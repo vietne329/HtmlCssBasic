@@ -1,0 +1,73 @@
+
+div.tren ul.menungang{
+    display: flex;
+    list-style: none;
+}
+
+div.tren ul.menungang li a{
+    text-decoration: none;
+    font-family: segoe ui;
+    color: #3f3f3f;
+    background-color: #d5d5d5;
+    padding: 7px 17px;
+    display: block;
+    margin: 0px 1px;
+    text-transform: uppercase;
+}
+
+div.tren ul.menungang li a.blue{
+    background-color: rgb(0, 132, 255);
+}
+
+.duoi{
+    display: flex;
+    width: 850px;
+    flex-wrap: wrap;
+}
+
+.duoi a.khoinho{
+    width: 170px;
+    display: flex;
+    height: 30px;
+    font-family: segoe ui;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;    
+}
+
+div.duoi a.khoinho img.trai{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    margin-left: 50px;
+}
+div.duoi a.khoinho div.phai{
+    width: 120px;
+}
+
+._13cot{
+    width: 1000px;
+    display: flex;
+    margin:auto;
+    flex-wrap: wrap;
+}
+._13cot ._1cot{
+    width: 76px;
+    font-family: segoe ui;
+    text-align: center;
+    height: 100px;
+    font-size: 13px;
+}
+
+._13cot ._1cot a{
+    text-decoration: none;
+    color: rgb(17, 71, 219);
+    
+}
+
+._13cot ._1cot img{
+    border-radius: 2px;
+}
+._13cot ._1cot img:hover{
+    border:2px solid rgb(17, 71, 189);
+}

@@ -1,0 +1,16 @@
+:root{
+    --mauvang: rgb(158, 137, 14);
+    --maunen: rgba(93, 196, 93, 0.267);
+    --text_size1: 40px;
+
+}
+
+body{
+    background-color: var(--mauvang);
+
+
+}
+
+h2{
+    font-size: var(--text_size1);
+}

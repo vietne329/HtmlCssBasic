@@ -1,0 +1,12 @@
+.khung{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    background-image: url(s1.jpg);
+}
+.khung .noidung{
+    font-size: 30px;
+    color: white;
+    justify-content: center;
+    display: flex;
+}

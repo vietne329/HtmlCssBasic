@@ -1,0 +1,16 @@
+.content{
+    width: 600px;
+    background-color: pink;
+    padding:20px;
+
+}
+.content h3{}
+
+@media( max-width : 800px){
+    .content{
+        width: 200px;
+        background-color: black;
+        color: white;
+        font-family: segoe ui light;
+    }
+}

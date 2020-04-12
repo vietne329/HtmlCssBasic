@@ -1,0 +1,84 @@
+*{margin:0;padding : 0}
+
+.parent{
+    width: 900px;
+    height: 335px;
+    position: relative;
+    overflow: hidden;
+    margin:auto;
+    margin-top: 50px;
+}
+
+
+
+.parent .picture{
+    width: 120%;
+    height: 100%;
+    position: relative;
+    left:-30px;
+    transition: 0.5s;
+}
+.parent:hover .picture{
+    left: 0px;
+}
+.parent .effect{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(30, 79, 153);
+    top:0;
+    left:0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.parent:hover .effect{
+    opacity: 0.3;
+    transition: 0.5s;
+}
+.parent .word_block1{
+    position: absolute;
+    height: 40px;
+    width: 100%;    
+    top:40%;
+    left: 0;
+    text-align: center;
+    font-size: 35px;
+    font-family: segoe ui light;
+    font-weight: bold;
+    color: white;
+    overflow: hidden;
+ }
+
+.parent .word_block1 .bigword{
+    position: relative;
+    top:40px;
+    transition: 0.5s;
+    
+ }
+.parent:hover .word_block1 .bigword{
+    top:-5px;
+
+}
+.parent .word_block2{
+    position: absolute;
+    height: 40px;
+    width: 100%;    
+    top:50%;
+    left: 0;
+    text-align: center;
+    font-family: segoe ui light;
+    color: white;
+    overflow: hidden;
+    font-weight: bold;
+    
+ }
+.parent .word_block2 .smallword{
+    position:relative;
+    top:55px;
+    transition:0.5s;
+    font-size: 16px;
+}
+.parent:hover .word_block2 .smallword{
+    top:15px;
+}
+

@@ -1,0 +1,23 @@
+a.word{
+    position: relative;
+    font-family: segoe ui;
+    font-size: 20px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+a.word:after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    bottom: 0px;
+    left: 0px;
+    height: 2px;
+    transition: 0.4s;
+    background-color: red;
+}
+
+a.word:hover:after{
+    width: 100%;
+}

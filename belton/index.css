@@ -1,0 +1,310 @@
+* {margin: 0; padding: 0;}
+:root{
+    --font1 : 'Oswald', sans-serif;
+    --size1 : 48px;
+    --lineheight1 : 59px;
+    
+    --font2 : 'Amiri', serif;
+    --size2 : 20px;
+    --color2 : #666;
+
+}
+
+.banner_top{
+    background: url("belton.jpg") top center;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.banner_top:before{
+    content:'';
+    position: absolute;
+    background-image: -webkit-linear-gradient(left,#0000006b 0%,#00000052 50%, #00000078 100%);
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.banner_top ._3cot{
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+.banner_top ._3cot ._1cot{
+    width: 33.33%;
+}
+.banner_top ._3cot ._1cot.cottrai{
+
+}
+.banner_top ._3cot ._1cot.cottrai a{
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    padding: 30px 35px;
+}
+
+.banner_top ._3cot ._1cot.cotphai{
+    text-align: right;
+    display: inline-block;
+    padding:20px 25px;
+}
+.banner_top ._3cot ._1cot.cotphai a{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px 5px;
+}
+.banner_top ._3cot ._1cot.cotphai a.icon{}
+
+.banner_top ._3cot ._1cot.cotgiua img{
+    height: 30px;
+    padding-top: 25px;
+}
+.banner_top ._3cot ._1cot.cotgiua{
+    text-align: center;
+    
+}
+
+.text_banner{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 5%;
+}
+.text_banner .content{
+    width: 1170px;
+    margin: auto;
+}
+.text_banner .content .small{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.text_banner .content h1{
+    color: white;
+    font-weight: normal;
+    width: 50%;
+    font-family: var(--font1);
+    font-size: var(--size1);
+    line-height: var(--lineheight1);
+}
+
+.content1{
+    width: 1170px;
+    margin: auto;
+    padding: 80px 0px;
+    display: flex;
+    font-family: var(--font2);
+    font-size: var(--size2);
+    color: var(--color2);
+
+}
+.content1 .left{
+    width: 35%;
+    margin: auto;
+}
+.content1 .left span{
+    margin-left: 100px;
+}
+.content1 .left h2{
+    color: black;
+    margin-left: 100px;
+    font-family: segoe ui light;
+    font-size: 22px;
+    margin-right: 100px;
+    
+}
+
+.content1 .right{
+    width: 65%;
+}
+.content1 .right{}
+.content1 .right p{
+    padding-bottom: 12px;
+    padding-right: 100px;
+}
+
+a.buy{
+    text-decoration: none;
+    color: var(--color2);
+}
+
+ p.buy{
+    font-size: 16px;
+}
+a.buy p.buy::before{
+    content :'\f178';
+    font: normal normal normal 14px/1 FontAwesome;
+    position: relative;
+    padding-right: 20px;
+    transition: 0.4s;
+    left: 0px;
+}
+a.buy p.buy:hover::before{
+    left: 15px;
+}
+a.buy:hover{
+    color: black;
+}
+
+
+.content2{
+    background-color: black;
+}
+
+.content2 .top{
+    width: 100%;
+    padding:100px 0px;
+    display: flex;
+    display: block;
+    text-align: center;
+}
+.content2 .top a{
+    color: rgb(145, 141, 141);
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 15px;
+}
+
+.top a.white{
+    color: white;
+}
+
+.content2 .block_img{
+    width: 1130px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.content2 .block_img a .parent{
+    width: 550px;
+    height: 370px;
+    margin-bottom: 25px;
+}
+.content2 .block_img a .parent img.picture{
+    width: 100%;
+    height: 370px;    
+}
+
+.block_img a{
+    width: 550px;
+    height: 370px;
+    margin-bottom: 25px;
+}
+
+.block_img a .p2 .layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.514);
+    transition: 0.4s;
+    opacity: 0;
+}
+.block_img a:hover .p2 .layer{
+    opacity: 1;
+}
+
+
+.end{
+    padding-bottom: 70px;
+}
+
+.end .icons{
+    display: flex;
+    text-align: center;
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.end .icons img{
+
+    height: 120px;
+    padding: 0px 30px
+}
+
+hr{
+    width: 950px;
+    margin: auto;
+    color: grey;
+}
+
+.words{
+    width: 950px;
+    padding-top: 40px;
+    display: flex;
+    margin: auto;
+}
+.words h1{
+    font-family: segoe ui light;
+    color: rgb(14, 13, 13);
+    width: 20%;
+}
+
+.words span{
+    width: 60%;
+    font-family: segoe light;
+    text-align: left;
+    color: grey;
+    line-height: 30px;
+    font-size: 19px;
+    
+}
+.words a.contact{
+    text-decoration: none;
+    width: 20%;
+    text-align: right;
+    color: grey;
+    font-family: segoe light;
+    font-size: 16px;
+}
+
+.words a.contact p:before{
+    position: relative;
+    content :'\f178';
+    font: normal normal normal 14px/1 FontAwesome;
+    padding-right: 20px;
+    transition: 0.4s;
+    left: 0px;
+}
+.words a.contact p:hover:before{
+    left: 15px;
+    
+}
+
+.info{
+    background-color: black;
+    padding-top: 40px;
+    width: 100%;
+    padding-bottom: 60px;
+    display: flex;
+}
+
+.info .trai{
+    
+    margin-left: 50px;
+    color: rgb(202, 199, 199);
+    font-family: segoe ui;
+    
+    font-size: 14px;
+
+}
+
+.info .phai{
+    color: white;
+    margin-left: 65%;
+    text-align: right;
+
+}
+.red{
+    
+    color: red;
+}

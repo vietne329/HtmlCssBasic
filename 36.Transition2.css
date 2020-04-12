@@ -1,0 +1,18 @@
+.vidu1{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: segoe ui;
+    color: black;
+    background-color: greenyellow;
+    display: block;
+    text-align: center;
+    transition: 0s;
+}
+.vidu1:hover{
+    background: rgba(165, 165, 29, 0.822);
+    transition: 0.4s;
+}
